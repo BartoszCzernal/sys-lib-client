@@ -1,11 +1,31 @@
 .container {
-  background: linear-gradient(
-    90deg,
-    rgb(110, 94, 254) 0%,
-    rgba(73, 63, 252, 1) 100%
-  );
+  background: black;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.title-style {
+  color: white;
+  margin-left: 20px;
+}
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+  background-color: #3d3e44;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
 }
