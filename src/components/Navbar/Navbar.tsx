@@ -2,6 +2,7 @@ import React from "react";
 import { MenuItems } from "../MenuItems";
 import "./NavbarStyles.css";
 
+// TODO : style navbar for small screens
 const Navbar = () => {
   return (
     <nav className="container">
